@@ -1,13 +1,14 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 
-const About = () => {
+const Error = () => {
     return (
         <div>
             <Navigation/>
-            <h1>A propos</h1>
+            <h1>404</h1>
+            
         </div>
     );
 };
 
-export default About;
+export default Error;
