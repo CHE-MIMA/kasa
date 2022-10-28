@@ -2,18 +2,21 @@ ul {
     display: flex;
     flex-direction:row;
     justify-content: space-between;
-    margin-right: 10%;
-    margin-left: 60%;
-    margin-top: 30px;
+    margin-right: 5%;
+    margin-left: 80%; 
+    margin-top: -40PX;
+   
 
     a {
       text-decoration: none;
       padding: 0px;
 
       li {
-        font-size: 24PX;
+        font-size: 20PX;
+        font-family: $font-1;
         color: $color-1;
-        transition: 0.1s;
+        transition: 0.1s; 
+       
         cursor: pointer;
       }
     }

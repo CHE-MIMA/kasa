@@ -1,20 +1,20 @@
-// @font-face {
-//     font-family: "font-1";
-//     src: url(../assets/fonts/JosefinSans-Medium.ttf);
-//   }
+@font-face {
+    font-family: "font-1";
+    src: url(../assets/font/Montserrat-VariableFont_wght.ttf);
+  }
   
-//   $font-1: "font-1", sans-serif;
+  $font-1: "font-1", sans-serif;
   
   $color-1:rgba(255, 96, 96, 1);
   $color-2: rgba(246, 246, 246, 1);
   $color-3: rgba(0, 0, 0, 1);
   $white:rgba(255, 255, 255, 1);
   
-  @mixin verticalCenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  // @mixin verticalCenter {
+  //   display: flex;
+  //   justify-content:flex-start;
+  //   align-items:flex-start;
+  // }
   
   * {
     padding: 0;
@@ -24,7 +24,7 @@
   
   body {
     background: $white;
-    // font-family: $font-1;
+    font-family:  $font-1;
     // @include verticalCenter;
   }
   li {
