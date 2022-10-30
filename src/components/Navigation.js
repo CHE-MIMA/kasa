@@ -3,10 +3,9 @@ import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
     return (
-        <div>
-            <div className="navigation"></div>
-            <ul>
-                <NavLink to="/home"
+        <div >
+            <ul className="navigation">
+                <NavLink to="/"
                     className={(nav) => (nav.isActive ? "nav-active" : "")}>
                     <li>Accueil</li>
                 </NavLink>
@@ -16,6 +15,7 @@ const Navigation = () => {
                 </NavLink>
             </ul>
         </div>
+
     );
 };
 
