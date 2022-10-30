@@ -179,4 +179,31 @@ h1 {
   width: 123px;
   border: 0px;
 }
+
+.erreur {
+  margin-left: 5%;
+  width: 550px;
+  margin-top: 120px;
+  background: url(../../assets/404.png) center/cover;
+  border: 0;
+  margin-left: 500px;
+}
+
+.erreur img {
+  height: 200px;
+}
+
+.erreur-p {
+  margin-top: 60px;
+  text-align: center;
+  color: #ff6060;
+  font-size: 25px;
+  margin-bottom: 120px;
+}
+
+.erreur-link {
+  text-align: center;
+  color: #ff6060;
+  font-size: 20px;
+}
 /*# sourceMappingURL=index.css.map */
