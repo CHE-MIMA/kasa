@@ -1,19 +1,22 @@
 import React from 'react';
-import logements from '../logements';
+import { NavLink } from 'react-router-dom';
+// import logements from '../logements';
 
 const Card = ({ logement }) => {
-    console.log(logements);
+    console.log(logement);
     return (
+        <NavLink to={"/logement/" + logement.id} className='card'>
 
-        <div className='card'>
-            <img
-                src={logement.cover}
-                alt={"logement" + logement.title} />
-            <div className='card-info'>
-                <h2>{logement.title}</h2>
+            <div className='card'>
+                <img
+                    src={logement.cover}
+                    alt={"logement" + logement.title} />
+                <div className='card-info'>
+                    <h2>{logement.title}</h2>
 
+                </div>
             </div>
-        </div>
+        </NavLink>
 
     );
 };
