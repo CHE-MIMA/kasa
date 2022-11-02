@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 // import logements from '../logements';
 
 const Card = ({ logement }) => {
-    console.log(logement);
+    // console.log(logement);
     return (
         <NavLink to={"/logement/" + logement.id} className='card'>
 

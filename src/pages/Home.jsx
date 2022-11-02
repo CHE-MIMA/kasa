@@ -1,8 +1,9 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import Logo from '../components/Logo';
-import Container from '../components/Container';
+import CardLogements from '../components/CardLogement';
 import Footer from '../components/Footer';
+import imgHome from '../assets/imghome.png';
 
 const Home = () => {
 
@@ -10,11 +11,14 @@ const Home = () => {
     <div>
       <Logo/>
       <Navigation/>
-      <div className='banner'>
-         {/* <img src="../public/IMG.png" alt="chez vous, partout et ailleurs" /> */}
+      
+         <div className='banner'>
+             <img src={imgHome} alt="chez vous, partout et ailleurs" />
+        
          <h1>Chez vous, partout et ailleurs</h1>
-      </div>
-     <Container/>
+         </div>
+     
+     <CardLogements/>
      <Footer/>
     </div>
   );

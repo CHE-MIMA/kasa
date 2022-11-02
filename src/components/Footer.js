@@ -1,12 +1,12 @@
 import React from 'react';
-
+import kasaF from '../assets/logof.png'
 const Footer = () => {
     return (
         <div className='footer'>
             <div className='footer-container'>
-                <img src="../../assets/LOGOF.png" alt="" />
+                <img src={kasaF} alt="" />
             </div>
-            <h1>c 2020 Kasa. All rights reserved</h1>
+            <p> &copy; 2020 Kasa. All rights reserved</p>
 
         </div>
     );
