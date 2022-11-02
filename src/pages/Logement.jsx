@@ -4,7 +4,7 @@ import Logo from '../components/Logo';
 import Navigation from '../components/Navigation';
 import { useParams } from 'react-router-dom';
 import Error from './Error';
-import Data from '../components/Data';
+import Data from '../data/logements.json';
 
 const Logement = () => {
     const { id } = useParams();
@@ -21,8 +21,8 @@ const Logement = () => {
         <div>
            <Logo/>
             <Navigation/> 
-           <main>
-           <div id="intro">
+           <main className='div-logement'>
+           <div className="logement">
                 <div>
                     <h2 className="loge-titre">{title}</h2>
                     <h3 className="loge-location">{location}</h3>

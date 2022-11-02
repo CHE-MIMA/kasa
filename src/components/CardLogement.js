@@ -1,8 +1,9 @@
 import React from 'react';
-import Data from './Data';
+// import Data from './Data';
 // import { useEffect } from 'react';
 // import axios from 'axios';
 // import data from '../data/logements'
+import Data from "../data/logements.json";
 
 import Card from './Card';
 
