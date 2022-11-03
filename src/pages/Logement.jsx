@@ -5,6 +5,7 @@ import Navigation from '../components/Navigation';
 import { useParams } from 'react-router-dom';
 import Error from './Error';
 import Data from '../data/logements.json';
+import Dropdown from '../components/Dropdown';
 
 const Logement = () => {
     const { id } = useParams();
@@ -14,11 +15,12 @@ const Logement = () => {
         return <Error />;
     }
 
-    const { title, location, host } = logementDetails;
+    const { title, location, host, description, equipments} = logementDetails;
 
     
     return (
         <div>
+        <div  classname="content">
            <Logo/>
             <Navigation/> 
            <main className='div-logement'>
@@ -34,8 +36,29 @@ const Logement = () => {
                         <h4>{host.name}</h4>
                         <img src={host.picture} alt={host.name} />
              </div>
+         </main>
+              
+            <div className='flex-logement'>
 
-           </main>
+                
+                  <div className='desc'>
+             <Dropdown 
+                    titre=" Description "
+                    contenu={description}
+                 
+                />
+                 </div>
+                 <div className='equip'>
+             <Dropdown 
+                    titre=" Équipements"
+                    contenu= {equipments} 
+                 
+                />
+            </div>
+           </div> 
+        
+
+           </div>
             <Footer/>
         </div>
     );

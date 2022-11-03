@@ -25,10 +25,16 @@
   body {
     background: $white;
     font-family:  $font-1;
+    display: flex;
+    flex-direction: column;
   
 
  
     // @include verticalCenter;
+  }
+  .content{
+    background-color: aqua;
+    flex-grow: 1;
   }
   li {
     list-style-type: none;

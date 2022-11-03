@@ -6,7 +6,7 @@ import imgErreur from '../assets/404.png'
 
 const Error = () => {
     return (
-        <div>
+        <div  classname="content">
             <Logo/>
             <Navigation/>
             <div className='erreur'>

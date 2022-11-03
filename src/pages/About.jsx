@@ -11,7 +11,8 @@ const About = () => {
         // const [drop, updateDrop] = useState([])
         
     return (
-        <div>
+       <div>
+        <div classname="content">
             <Logo/>
             <Navigation/>
             
@@ -42,10 +43,12 @@ const About = () => {
                         aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards
                         sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos
                         hôtes."
-        />
+          />
+         </div>  
          </div>
             <Footer/> 
-         </div>
+            </div>
+       
        
     );
 };

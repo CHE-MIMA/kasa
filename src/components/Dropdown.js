@@ -5,7 +5,7 @@ import iconBas from '../assets/iconbas.png';
 
 
 
-const Dropdown = ({ titre, contenu }) => {
+const Dropdown = ({ titre, contenu, text }) => {
 
     const [isOpen, setIsOpen] = useState(true)
     return isOpen ? (
@@ -20,7 +20,16 @@ const Dropdown = ({ titre, contenu }) => {
             </div>
 
             <div className='drop-down' >
-                <span>{contenu}</span>
+                {typeof contenu === "object" ? (
+                    <ul className={text}>
+                        {contenu.map((element) => {
+                            return <li key={`${element}`}> {element}</li>;
+                        })}
+                    </ul>
+                ) : (
+                    <span className={text}>{contenu}</span>
+                )}
+
             </div>
         </div>
 
