@@ -24,15 +24,15 @@ const Logement = () => {
            <main className='div-logement'>
            <div className="logement">
                 <div>
-                    <h2 className="loge-titre">{title}</h2>
-                    <h3 className="loge-location">{location}</h3>
+                    <h2>{title}</h2>
+                    <h3>{location}</h3>
                     {/* <Tag tags={tags} /> */}
                 </div>
             </div>
             
             <div className="proprio-info">
-                        <h4 className='proprio-name'>{host.name}</h4>
-                        <img className="proprio-picture" src={host.picture} alt={host.name} />
+                        <h4>{host.name}</h4>
+                        <img src={host.picture} alt={host.name} />
              </div>
 
            </main>
