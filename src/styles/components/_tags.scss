@@ -1,0 +1,18 @@
+.tags{
+   display: flex;
+ margin-left: 80px;
+ margin-top: 20px;
+}
+.tag{
+background-color: $color-1;
+width: 150px;
+height: 30px;
+padding: 6px;
+font-size: 15px;
+text-align: center;
+color: $white;
+border-radius: 10px;
+margin-right: 40px;
+
+
+}
