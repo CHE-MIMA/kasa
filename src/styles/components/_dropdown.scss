@@ -72,13 +72,12 @@
        
       
         margin-top: 40px;
-        display: flex;
-        justify-content: space-between;
-       
-    
+        @include flex;
         height: 60px;
          background-color: $color-1;
          border-radius: 10px;
+         margin-right: 40px;
+      
      
         h2{
             color: $white;

@@ -10,11 +10,12 @@
   $color-3: rgba(0, 0, 0, 1);
   $white:rgba(255, 255, 255, 1);
   
-  // @mixin verticalCenter {
-  //   display: flex;
-  //   justify-content:flex-start;
-  //   align-items:flex-start;
-  // }
+  @mixin flex {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+   
+  }
   
   * {
     padding: 0;
@@ -30,10 +31,9 @@
   
 
  
-    // @include verticalCenter;
+
   }
   .content{
-    background-color: aqua;
     flex-grow: 1;
   }
   li {

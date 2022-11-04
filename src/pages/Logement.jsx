@@ -6,6 +6,8 @@ import { useParams } from 'react-router-dom';
 import Error from './Error';
 import Data from '../data/logements.json';
 import Dropdown from '../components/Dropdown';
+import Tag from '../components/Tag';
+import Lightbox from '../components/Lightbox';
 
 const Logement = () => {
     const { id } = useParams();
@@ -15,21 +17,24 @@ const Logement = () => {
         return <Error />;
     }
 
-    const { title, location, host, description, equipments} = logementDetails;
+    const { title, location, host, description, equipments, tags} = logementDetails;
 
     
     return (
         <div>
-        <div  classname="content">
+        <div  className="content">
            <Logo/>
             <Navigation/> 
+            <Lightbox/>
            <main className='div-logement'>
            <div className="logement">
                 <div>
                     <h2>{title}</h2>
                     <h3>{location}</h3>
-                    {/* <Tag tags={tags} /> */}
+                   
                 </div>
+                <Tag tags={tags} 
+                    />
             </div>
             
             <div className="proprio-info">
@@ -58,7 +63,7 @@ const Logement = () => {
            </div> 
         
 
-           </div>
+        </div>
             <Footer/>
         </div>
     );

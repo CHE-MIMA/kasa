@@ -12,7 +12,7 @@ const About = () => {
         
     return (
        <div>
-        <div classname="content">
+        <div className="content">
             <Logo/>
             <Navigation/>
             

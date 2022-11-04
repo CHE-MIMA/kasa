@@ -1,7 +1,5 @@
 ul {
-    display: flex;
-    flex-direction:row;
-    justify-content: space-between;
+     @include flex;
     margin-right: 110px;
     margin-left: 75%; 
     margin-top: -40PX;

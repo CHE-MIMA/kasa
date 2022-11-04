@@ -1,0 +1,29 @@
+.lightbox{
+display: flex;
+
+
+
+}
+.lightbox-image{
+    width: 1400px;
+    height: 450px;
+    object-fit: cover;
+    margin-top: 50PX;
+    margin-left: 80PX;
+    border-radius: 25PX;
+    }
+.next{
+width: 50px;
+height: 70px;
+  margin-left: 1350px; 
+  position: absolute;
+  margin-top: 220px;
+}
+.previous{
+   
+margin-left: 150px;
+    margin-top: 220PX;
+    width: 50px;
+    height: 70px;
+    position: absolute;
+}
