@@ -39,6 +39,7 @@ justify-content: space-between;
         border: 2px solid $color-2;
         width: 80px;
         height: 80px;
+       
      
   
 
@@ -64,6 +65,87 @@ justify-content: space-between;
    
    
 }
+.notation{
+    margin-left: -40px;
+   img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    margin-top: 20px;
+   }
+}
+@media screen and (min-width: 375px)  and (max-width:809){
+    .div-logement{
+        display: flex;
+       flex-direction: column;
+        
+        
+        }
+        
+        .logement{
+            h2{  
+              
+                font-size: 25px;
+                margin-left: 0px;
+        
+            }
+            h3{
+               
+                font-size: 20px;
+               
+                margin-left: 0px;
+            }
+        }
+        .proprio-info{
+          
+            margin-right: 0px;
+            h4{
+             
+                font-size: 16px;
+                width: 100px;
+              
+        
+            }
+            img{
+              
+                width: 80px;
+                height: 80px;
+             
+          
+        
+            }
+        }
+        .flex-logement{
+          
+           display: flex;
+          flex-direction: column;
+           margin-left: 0px; 
+           margin-right: 0px;
+        
+         
+         
+        }
+        .equip{
+            width: 100%px;
+          
+           
+        }
+        .desc{
+            width: 100%;
+           
+           
+        }
+        .notation{
+            color: $color-1;
+        }
+    }
+
+
+
+
+
+
+
 
 
   

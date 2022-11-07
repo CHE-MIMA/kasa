@@ -1,21 +1,20 @@
 .lightbox{
 display: flex;
-
-
-
 }
 .lightbox-image{
-    width: 1400px;
-    height: 450px;
+    width: 1360px;
+    height: 400px;
     object-fit: cover;
     margin-top: 50PX;
     margin-left: 80PX;
     border-radius: 25PX;
+    border: 2px solid $color-2;
+  
     }
 .next{
-width: 50px;
-height: 70px;
-  margin-left: 1350px; 
+width: 40px;
+height: 60px;
+  margin-left: 1330px; 
   position: absolute;
   margin-top: 220px;
 }
@@ -23,7 +22,43 @@ height: 70px;
    
 margin-left: 150px;
     margin-top: 220PX;
-    width: 50px;
-    height: 70px;
+    width: 40px;
+    height: 60px;
     position: absolute;
+}
+.flex-img-number{
+    display: flex;
+    flex-direction: column;
+}
+.img-number{
+    font-size: 18px;
+margin-left: 50%;
+margin-top: -40PX;
+color: $white;
+
+}
+@media screen and (min-width: 375px)  and (max-width:809){
+
+    .lightbox-image{
+        width: 50%;
+        height: 350px;
+     
+        margin-left: 0PX;
+     
+        }
+    .next{
+    width: 25px;
+    height: 35px;
+      margin-left: 80%; 
+      position: absolute;
+      margin-top: 180px;
+    }
+    .previous{
+       
+    margin-left: 5%;
+        margin-top: 180PX;
+        width: 25px;
+        height: 35px;
+        position: absolute;
+    } 
 }

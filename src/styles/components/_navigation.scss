@@ -47,3 +47,25 @@ ul {
     }
     
   }
+
+  @media screen and (min-width: 375px) and (max-width:809px){
+    ul {
+   
+  margin-right: 2%;
+    margin-left: 50%; 
+    margin-top: -25PX;
+   
+  
+
+    a {
+      
+      li {
+        font-size: 15px;
+      
+      }
+    }
+    }
+  }
+    
+
+  

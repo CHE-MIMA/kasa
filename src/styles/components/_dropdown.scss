@@ -11,6 +11,9 @@
         height: 60px;
          background-color: $color-1;
          border-radius: 10px;
+       
+        
+        
         
       
         h2{
@@ -41,10 +44,14 @@
     .drop-down{
         background-color: $color-2;
         border-radius: 0px 0px 10px 10px;
-        padding-top: 20px;
+        padding-top: 30px;
         text-align:start;
         padding-left: 20px;
         height: 160px;
+        margin-top: -20px;
+        z-index: -1;
+        position: relative;
+       
       
         ul{
             color: $color-1;
@@ -53,7 +60,7 @@
             display: flex;
             flex-direction: column;
             margin-left: 0px;
-            font-size: 18x;
+            font-size: 18px;
           
      
      }
@@ -62,6 +69,7 @@
        
             color: $color-1;
             font-size: 18px; 
+           
           
            
         }
@@ -108,12 +116,46 @@
     .flex-drop{
         display: flex;
         flex-direction: column;
-        margin-top: 300px;
+        margin-top: 260px;
         width: 1200px;
-      
-         margin-left: 11%;
+        margin-left: 180px;
       
     }
+    @media screen and (min-width: 375px)  and (max-width:809px){
+        .div-open{
+            margin-top: 30px;
+            margin-right: 0px; 
+        
+        }
+        .flex-drop{
+            
+            margin-top: 220px;
+            width: 100%;
+            margin-left: 0px;
+            margin-bottom: 70PX;
+          
+        }
+        .drop-down{
+           
+            height: 245px;
+            ul{
+              
+                font-size: 16px;
+              
+         
+         }
+           
+            span{
+           
+             
+                font-size: 16px; 
+                padding-right: 20PX;
+               
+              
+               
+            } 
+    }
+}
   
    
 

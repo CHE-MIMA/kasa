@@ -29,7 +29,7 @@ const Lightbox = () => {
     return (
         <div className="lightbox" >
 
-            {/* affiche les boutons  */}
+            {/* affiche le bouton precedent  */}
 
             <img className='previous'
                 onClick={previous} src={previousIcon} alt="precedante" />
@@ -38,15 +38,19 @@ const Lightbox = () => {
             <div>
                 {pictures.map((img, index) => {
                     return (
-                        <div key={index}>
+                        <div className='flex-img-number' key={index}>
                             {index === currentElement && <img className="lightbox-image" src={img} alt="Photos du logement" />}
+                            {index === currentElement && (
+                                <span className="img-number">
+                                    {currentElement + 1}/{pictures.length}
+                                </span>)}
 
                         </div>
                     );
                 })
                 }
             </div>
-
+            {/* affiche le bouton suivant  */}
             <img className='next'
                 onClick={next} src={nextIcon} alt="suivante" />
         </div>

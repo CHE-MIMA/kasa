@@ -1,6 +1,6 @@
 .footer {
     margin-left: 80px;
-    width: 1400px;
+    width: 1360px;
     margin-top: 40px;
     background-color: $color-3;
     border: 0;
@@ -24,4 +24,28 @@
      margin-left: 40%;
   
 }
+}
+@media screen and (min-width: 375px)and (max-width:809px) {
+  .footer {
+    margin-left: 0px;
+    width: 100%;
+    margin-top: -40px;
+    height: 160px;
+  }
+  p{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 110px;
+  }
+
+.footer-container{
+    img {
+      height: 35px;
+      width: 110px;
+     margin-top: 50px;
+ margin-left: 30%;
+  
+}
+}
+
 }

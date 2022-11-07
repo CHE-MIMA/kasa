@@ -8,6 +8,8 @@ import Data from '../data/logements.json';
 import Dropdown from '../components/Dropdown';
 import Tag from '../components/Tag';
 import Lightbox from '../components/Lightbox';
+import starOrange from '../assets/starOrange.png'
+import starGrey from '../assets/starGrey.png'
 
 const Logement = () => {
     const { id } = useParams();
@@ -17,8 +19,8 @@ const Logement = () => {
         return <Error />;
     }
 
-    const { title, location, host, description, equipments, tags} = logementDetails;
-
+    const { title, location, host, description, equipments, tags, rating} = logementDetails;
+const range=[1, 2, 3, 4, 5]
     
     return (
         <div>
@@ -36,11 +38,25 @@ const Logement = () => {
                 <Tag tags={tags} 
                     />
             </div>
-            
-            <div className="proprio-info">
+            <div  className='proprio-info-stars'>
+                <div className="proprio-info">
                         <h4>{host.name}</h4>
                         <img src={host.picture} alt={host.name} />
-             </div>
+                </div>  
+                <div className="notation">
+                   {range.map((rangeElement)=>
+                   rating>= rangeElement?
+                   (
+                     <img key={rangeElement.toString()}src={starOrange}alt="étoile-orange" />
+                   ):
+                   (
+                    <img key={rangeElement.toString()}src={starGrey}alt="étoile-gris" />
+                   )
+                   )}
+				   
+                </div>   
+            </div>
+           
          </main>
               
             <div className='flex-logement'>

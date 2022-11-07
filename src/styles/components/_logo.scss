@@ -10,3 +10,13 @@
       width: 140px;
   }
 }
+@media screen and (min-width: 375px)and (max-width:809px) {
+  .logo {
+    margin-left: 0px;
+    margin-top: 60px;
+    img {
+      height: 35px; 
+      width: 120px;
+  }
+} 
+}
