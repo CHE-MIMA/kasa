@@ -2,18 +2,9 @@
  a{ text-decoration: none;
   list-style-type: none;
  
- 
-   
 .card {
-
-
-
  height: 340px; 
   width: 95%;
-
-
-
- 
     img {
       border-radius: 10px;
       height: 340px; 
@@ -29,24 +20,28 @@
     }
 } 
 }
-@media screen and (min-width:375px) and (max-width:809px){
+@media screen and (min-width:320px) and (max-width:767px){
   a{
   .card {
 
- margin-left: 8px;
+ margin-left: 3%;
 
 }
 img{
+  
+  
   min-width: 99%;
 }
 
   }
 }
-@media screen and (min-width:810px) and (max-width:1280px){
+@media screen and (min-width:768px) and (max-width:1080px){
 
-  a{ 
+  a{  
+  
    .card {
   margin-top: 20px;
+  
   } 
   img{
     min-width: 99%;

@@ -1,10 +1,10 @@
 .lightbox{
-display: flex;
-margin-left: 120px;
+margin-top: -20PX;
+margin-left: 5%;
 }
 .lightbox-image{
-    width: 1360px;
-    height: 400px;
+    width: 95%;
+    height: 420px;
     object-fit: cover;
     margin-top: 50PX;
     margin-left: 0PX;
@@ -13,21 +13,20 @@ margin-left: 120px;
   
     }
 .next{
-width: 40px;
-height: 60px;
-  margin-left: -80px; 
+width: 50px;
+height: 80px;
+margin-left: 83%;
 color: $white;
-margin-top: 220PX;
-  position: relative;
+margin-top: -230PX;
+  position: absolute;
 }
-.previous{
-   
-margin-right: -80px;
+.previous{ 
+margin-left: 5%;
     margin-top: 220PX;
     color: $white;
-    position: relative;
-    width: 40px;
-    height: 60px;
+    position: absolute;
+    width: 50px;
+    height: 80px;
 
 }
 .flex-img-number{
@@ -36,52 +35,50 @@ margin-right: -80px;
 }
 .img-number{
     font-size: 18px;
-margin-left: 50%;
+margin-left: 45%;
 margin-top: -40PX;
 color: $white;
 
 }
-@media screen and (min-width: 375px)  and (max-width:809){
+@media screen and (min-width: 320px)  and (max-width:767px){
 
     .lightbox-image{
-        width: 100%;
+        width: 95%;
         height: 300px;
-        margin-left: 0PX;
+       border-radius: 10PX;
      
         }
     .next{
     width: 25px;
     height: 35px;
-      margin-left: 80%; 
-     
-      margin-top: 180px;
+      margin-left: 82%; 
+     margin-top: -155px;
+   
     }
     .previous{
        
-    margin-left: 5%;
+    margin-left: 2%;
         margin-top: 180PX;
         width: 25px;
         height: 35px;
        
     } 
 }
-@media screen and (min-width:810px) and (max-width:1280px){
+@media screen and (min-width:768px) and (max-width:1080px){
     
     .lightbox-image{
-        width: 100%;
+        width: 95%;
         height: 300px;
-        margin-right: -100PX;
-     
         }
         .next{
             width: 30px;
             height: 50px;
-           margin-left: 35%;
-              margin-top: 180px;
+           margin-left: 82%;
+             margin-top: -160PX;
             }
             .previous{
                
-                margin-RIGHT: -10PX;
+              margin-left: 5%;
                 margin-top: 180PX;
                 width: 30px;
                 height: 50px;

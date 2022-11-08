@@ -1,14 +1,14 @@
 .erreur{
-    margin-left: 5%;
+    margin-left: 30%;
   
     margin-top: 120px;
   
     border: 0;
-    margin-left: 500px;
+  
     
     img {
       height: 200px; 
-      width: 550px;
+      width: 60%;
 
   }
 
@@ -30,7 +30,7 @@
     text-decoration: underline;
     
 }
-@media screen and (min-width: 375px)  and (max-width:809px)   {
+@media screen and (min-width: 320px)  and (max-width:767px)   {
   .erreur{
     margin-left: 13%;
   
@@ -60,7 +60,7 @@
     
 }
 }
-@media screen and (min-width:810px) and (max-width:1280px){
+@media screen and (min-width:768px) and (max-width:1080px){
 
 
   .erreur{
