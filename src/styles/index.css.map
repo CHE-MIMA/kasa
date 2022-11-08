@@ -11,6 +11,8 @@
         "components/_banner.scss",
         "components/_footer.scss",
         "components/_erreur.scss"
+    
+
     ],
     "names": [],
     "file": "index.css"

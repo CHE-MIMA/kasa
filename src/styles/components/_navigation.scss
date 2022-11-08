@@ -66,6 +66,22 @@ ul {
     }
     }
   }
+  @media screen and (min-width:810px) and (max-width:1280px){
+    ul {
+      margin-bottom: -20px;
+      margin-right: 2%;
+       margin-left: 68%; 
+   
+        a {
+          
+          li {
+            font-size: 22px;
+          
+          }
+        }
+        }
+ 
+  }
     
 
   

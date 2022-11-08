@@ -59,7 +59,33 @@
     margin-top: 40px;
     
 }
+}
+@media screen and (min-width:810px) and (max-width:1280px){
 
 
+  .erreur{
+    margin-left: 10%;
+    margin-top: 200px;
+    border: 0;
+   
+    
+    img {
+      height: 140px; 
+      width: 85%;
+
+  }
+
+}
+.erreur-p{
+ margin-top: -60px;
+    font-size: 23px;
+  
+    
+  }
+.erreur-link{
+  margin-top: 100PX;
+    font-size: 20px;
+   
+}
 
 }
