@@ -3,8 +3,6 @@ import { useState } from 'react';
 import iconHaut from '../assets/iconhaut.png';
 import iconBas from '../assets/iconbas.png';
 
-
-
 const Dropdown = ({ titre, contenu, text }) => {
 
     const [isOpen, setIsOpen] = useState(true)
