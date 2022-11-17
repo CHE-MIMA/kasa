@@ -6,7 +6,6 @@
     .drop-open{
         display: flex;
         justify-content: space-between;
-     
         height: 60px;
          background-color: $color-1;
          border-radius: 10px;
@@ -46,8 +45,6 @@
         padding-bottom: 20px;
         z-index: -1;
         position: relative;
-       
-      
         ul{
             color: $color-1;  
            width: 200px;
@@ -63,10 +60,8 @@
             font-size: 18px;   
         }
     }
-  
-   
     .drop-close{
-      width: 100%;
+      width: 96%;
         margin-top: 40px;
         @include flex;
         height: 60px;
@@ -95,8 +90,6 @@
              height:15px;
              margin-right: 20px;
              background-color: $color-1; 
-    
-    
         }
     }
     .flex-drop{
@@ -105,8 +98,8 @@
         margin-top: 260px;
         width: 70%;
         margin-left: 15%;
-      
     }
+
     @media screen and (min-width: 320px)  and (max-width:767px){
         .div-open{
             margin-top: 30px;
@@ -123,7 +116,6 @@
         }
         .drop-down{
            
-          
             ul{
               
                 font-size: 16px;
@@ -141,16 +133,11 @@
     @media screen and (min-width:768px) and (max-width:1080px){
    
    
-        
-        
         .flex-drop{
             
             margin-top: 240px;
             width: 94%;
             margin-left: 5%;
-         
-          
-          
         }
         .drop-down{
             width: 100%;

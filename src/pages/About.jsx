@@ -4,12 +4,8 @@ import Navigation from '../components/Navigation';
 import imgAbout from '../assets/imgabout.png'
 import Footer from '../components/Footer';
 import Dropdown from '../components/Dropdown';
-// import { useState } from 'react';
 
-const About = () => {
-   
-        // const [drop, updateDrop] = useState([])
-        
+const About = () => {   
     return (
        <div>
         <div className="content">

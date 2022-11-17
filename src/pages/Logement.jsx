@@ -13,7 +13,6 @@ import starGrey from '../assets/starGrey.png'
 
 const Logement = () => {
     const { id } = useParams();
-
     const logementDetails = Data.find((object) => object.id === id);
     if (!logementDetails) {
         return <Error />;

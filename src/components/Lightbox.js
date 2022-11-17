@@ -5,17 +5,12 @@ import { useState } from 'react';
 import nextIcon from '../assets/next.png';
 import previousIcon from '../assets/previous.png';
 
-
-
 const Lightbox = () => {
-
     const { id } = useParams();
     const logement = data.find((element) => element.id === id);
     const { pictures } = logement;
 
     const [currentElement, setCurrent] = useState(0);
-
-
 
     //  fonction qui affiche l'element suivant. 
     function next() {

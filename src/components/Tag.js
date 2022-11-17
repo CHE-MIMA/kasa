@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 const Tag = ({ tags }) => {
     return (
         <div className="tags">
@@ -11,9 +9,5 @@ const Tag = ({ tags }) => {
         </div>
         // </div>
     );
-
-
 };
-
-
 export default Tag;
