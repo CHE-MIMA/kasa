@@ -1,5 +1,5 @@
 
-Ce projet a été réalisé en novenmbre 2022 pendant ma formation open classerooms
+Ce projet a été réalisé en novembre 2022 pendant ma formation open classerooms
 
  Kasa est application dans le métier de la location d’appartements entre particuliers en france.
 
