@@ -16,7 +16,8 @@ React :
 
 React Router :
 
-    Les paramètres des routes sont gérés par React Router dans l'URL pour récupérer les informations de chaque logement
+    Les paramètres des routes sont gérés par React Router 
+    dans l'URL pour récupérer les informations de chaque logement.
     Il existe une page par route
     La page 404 est renvoyée pour chaque route inexistante,
     ou si une valeur présente dans l’URL ne fait pas partie des données renseignées.
